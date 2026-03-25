@@ -140,15 +140,15 @@
 <script>
   window.googletag = window.googletag || {cmd: []};
   googletag.cmd.push(function() {
-    googletag.defineSlot('/23314720614/header-1', [[300, 600], 'fluid'], 'div-gpt-ad-1771038197976-0').addService(googletag.pubads());
+    googletag.defineSlot('/23314720614/header-1', [[300, 600], 'fluid'], 'div-gpt-ad-1773234063062-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });
 </script>
 <!-- /23314720614/header-1 -->
-<div id='div-gpt-ad-1771038197976-0' style='min-width: 300px; min-height: 600px;'>
+<div id='div-gpt-ad-1773234063062-0' style='min-width: 300px; min-height: 600px;'>
 <script>
-    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771038197976-0'); });
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1773234063062-0'); });
   </script>
 </div>
 	</center>

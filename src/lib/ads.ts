@@ -72,7 +72,7 @@ export const AD_UNITS = {
   },
   'sidebar-big': {
     path: '/23314720614/header-1',
-    id: 'div-gpt-ad-1771038197976-0',
+    id: 'div-gpt-ad-1773234063062-0',
     sizes: [[300, 600], 'fluid']
   },
   'mobile-anchor': {
@@ -80,7 +80,7 @@ export const AD_UNITS = {
     format: 'anchor'
   },
   'interstitial': {
-    path: '/23314720614/interstitial_mobile_wallpaper',
+    path: '/23314720614/interstitial_quiz_101',
     format: 'interstitial'
   }
 } as const;
