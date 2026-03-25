@@ -1,0 +1,126 @@
+[
+  {
+    "category": "IPL History",
+    "slug": "ipl",
+    "questions": [
+      {
+        "question": "Which bowler has taken the most wickets in IPL history as of 2024?",
+        "options": ["Yuzvendra Chahal", "Lasith Malinga", "Dwayne Bravo", "Amit Mishra"],
+        "correct_answer": "Yuzvendra Chahal"
+      },
+      {
+        "question": "Who was the first player to score 5000 runs in the IPL?",
+        "options": ["Virat Kohli", "Suresh Raina", "Rohit Sharma", "David Warner"],
+        "correct_answer": "Suresh Raina"
+      },
+      {
+        "question": "Which team holds the record for the highest team total in IPL history (287 runs)?",
+        "options": ["Royal Challengers Bangalore", "Sunrisers Hyderabad", "Mumbai Indians", "Lucknow Super Giants"],
+        "correct_answer": "Sunrisers Hyderabad"
+      },
+      {
+        "question": "Who won the Orange Cap in the first season of IPL (2008)?",
+        "options": ["Shaun Marsh", "Matthew Hayden", "Gautam Gambhir", "Chris Gayle"],
+        "correct_answer": "Shaun Marsh"
+      },
+      {
+        "question": "Who has won the most IPL titles as a captain?",
+        "options": ["MS Dhoni", "Rohit Sharma", "Gautam Gambhir", "Hardik Pandya"],
+        "correct_answer": "MS Dhoni"
+      }
+    ]
+  },
+  {
+    "category": "World Cup Trivia",
+    "slug": "wc",
+    "questions": [
+      {
+        "question": "Which team has won the most ICC ODI World Cup titles?",
+        "options": ["India", "West Indies", "Australia", "England"],
+        "correct_answer": "Australia"
+      },
+      {
+        "question": "Who was the 'Man of the Match' in the 2011 World Cup Final?",
+        "options": ["MS Dhoni", "Gautam Gambhir", "Yuvraj Singh", "Sachin Tendulkar"],
+        "correct_answer": "MS Dhoni"
+      },
+      {
+        "question": "In which city was the first-ever Cricket World Cup final (1975) held?",
+        "options": ["Birmingham", "Manchester", "London", "Nottingham"],
+        "correct_answer": "London"
+      },
+      {
+        "question": "Which player has scored the most runs in a single edition of the ODI World Cup (765 runs in 2023)?",
+        "options": ["Sachin Tendulkar", "Matthew Hayden", "Virat Kohli", "Kane Williamson"],
+        "correct_answer": "Virat Kohli"
+      },
+      {
+        "question": "Which country hosted the first-ever T20 World Cup in 2007?",
+        "options": ["India", "South Africa", "England", "Australia"],
+        "correct_answer": "South Africa"
+      }
+    ]
+  },
+  {
+    "category": "India Cricket Quiz",
+    "slug": "india",
+    "questions": [
+      {
+        "question": "Who was India's first ever Test captain?",
+        "options": ["Lala Amarnath", "CK Nayudu", "Vijay Hazare", "Mansoor Ali Khan Pataudi"],
+        "correct_answer": "CK Nayudu"
+      },
+      {
+        "question": "Against which team did Sachin Tendulkar score his 100th international century?",
+        "options": ["Australia", "Bangladesh", "South Africa", "Pakistan"],
+        "correct_answer": "Bangladesh"
+      },
+      {
+        "question": "Who is the only Indian bowler to take 10 wickets in a single Test innings?",
+        "options": ["Kapil Dev", "Anil Kumble", "Ravichandran Ashwin", "Harbhajan Singh"],
+        "correct_answer": "Anil Kumble"
+      },
+      {
+        "question": "India won its first ever World Cup in 1983. Who was the opponent in the final?",
+        "options": ["Australia", "West Indies", "England", "Pakistan"],
+        "correct_answer": "West Indies"
+      },
+      {
+        "question": "What is the highest individual score by an Indian in Test cricket?",
+        "options": ["319", "303", "281", "248"],
+        "correct_answer": "319"
+      }
+    ]
+  },
+  {
+    "category": "Player Stats",
+    "slug": "stats",
+    "questions": [
+      {
+        "question": "What is Sir Don Bradman's career Test batting average?",
+        "options": ["98.44", "99.94", "101.24", "95.64"],
+        "correct_answer": "99.94"
+      },
+      {
+        "question": "Who has the most international wickets across all formats?",
+        "options": ["Shane Warne", "Muttiah Muralitharan", "James Anderson", "Anil Kumble"],
+        "correct_answer": "Muttiah Muralitharan"
+      },
+      {
+        "question": "Who recorded the fastest century in ODI cricket history (31 balls)?",
+        "options": ["Corey Anderson", "Shahid Afridi", "AB de Villiers", "Glenn Maxwell"],
+        "correct_answer": "AB de Villiers"
+      },
+      {
+        "question": "Which batsman has the most double centuries in Test cricket?",
+        "options": ["Sachin Tendulkar", "Don Bradman", "Kumar Sangakkara", "Brian Lara"],
+        "correct_answer": "Don Bradman"
+      },
+      {
+        "question": "Who was the first player to take 500 wickets in T20 cricket?",
+        "options": ["Rashid Khan", "Dwayne Bravo", "Sunil Narine", "Lasith Malinga"],
+        "correct_answer": "Dwayne Bravo"
+      }
+    ]
+  }
+]

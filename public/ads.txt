@@ -1,0 +1,6 @@
+# ads.txt for Cricket Trivia Quiz
+# Replace YOUR_PUBLISHER_ID with your actual id
+# Wortise/AdX usually requires specific entries provided by the MCM partner
+
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Add Wortise specific entries below as provided in their dashboard

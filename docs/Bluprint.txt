@@ -1,0 +1,51 @@
+1. Suggested Technology Stack
+For the best ad performance, your site must be blazing fast (Core Web Vitals matter for AdSense).
+
+Frontend: Next.js (React) or Nuxt.js (Vue). These frameworks offer "Static Site Generation" (SSG) which makes pages load instantly.
+
+Backend: Node.js with MongoDB or Firebase. Firebase is excellent for real-time score updates and global leaderboards.
+
+Styling: Tailwind CSS. It is perfect for making the site fully responsive (Mobile, Tablet, Desktop) with minimal code.
+
+Hosting: Vercel or Cloudflare Pages. They provide global CDNs, ensuring your cricket fans in India, UK, or Australia all get 1-second load times.
+
+2. Strategic Ad Implementation for Max Revenue
+To get the best CPM (Cost Per Mille) and RPM (Revenue Per Mille), follow these placement strategies:
+
+High-Revenue Ad Placements
+Interstitials (Between Questions): Using Google AdX, you can show an interstitial ad every 3 or 5 questions. This has the highest CPM.
+
+Anchor/Sticky Ads: A permanent 320x50 banner at the bottom of the mobile screen.
+
+The "Next" Button Strategy: Place a Medium Rectangle (300x250) ad just above or below the "Next Question" button.
+
+Policy Warning: Maintain at least 150px distance between the button and the ad to avoid "Accidental Clicks," which can get your account banned.
+
+Refresh on Route Change: Since it’s a Single Page Application (SPA), ensure ads refresh every time a user moves to the next question.
+
+3. Step-by-Step Development Guide
+Step 1: Content & SEO Architecture
+Create "Cricket Trivia Categories" (IPL, World Cup, Player Stats). Google AdSense requires original text content. Don't just show a quiz; write a 300-word intro about the topic on the landing page to pass the "Low Value Content" check.
+
+Step 2: Mobile-First UI Design
+Design for the thumb. Most cricket fans will be on mobile.
+
+Use a Hamburger Menu for navigation.
+
+Ensure buttons are at least 44x44 pixels for easy tapping.
+
+Use WebP format for cricket player images to keep the site light.
+
+Step 3: Integrate Analytics & Success Tracking
+To show the "Success Rate" and "Revenue Metrics" you mentioned:
+
+Google Analytics 4 (GA4): Track which quiz has the highest "Engagement Rate."
+
+AdSense/AdX API: Pull data into a custom dashboard to see your daily RPM and CPM trends.
+
+Step 4: Policy Compliance (Very Important)
+Privacy Policy & GDPR: You must have a Privacy Policy page that mentions "Google AdSense" and "Cookies."
+
+No "Click-Bait": Do not use phrases like "Click here to see answer" if it leads to an ad.
+
+Ad Density: Do not have more ads than content on the screen at any one time.

@@ -1,0 +1,58 @@
+Phase 1: Planning & Content Strategy
+[ ] Define Quiz Categories: (e.g., IPL History, Player Stats, World Cup Trivia).
+
+[ ] Data Sourcing: Create a database of 500+ questions with images (WebP format).
+
+[ ] SEO Content Writing: Draft 300-word introductory articles for each category to satisfy AdSense "Low Value Content" policies.
+
+[ ] UI/UX Wireframing: Design a mobile-first layout focusing on the "Next" button placement and ad slots.
+
+Phase 2: Technical Development
+[ ] Project Setup: Initialize a Next.js project with Tailwind CSS.
+
+[ ] Frontend Components:
+
+[ ] Quiz Card (Question + 4 Options).
+
+[ ] Progress Bar & Score Counter.
+
+[ ] Responsive Header/Footer with "Sticky Ad" slots.
+
+[ ] State Management: Logic for timer, score tracking, and "Success Rate" calculation.
+
+[ ] Backend Integration: Set up Firebase or Supabase to store user leaderboards and quiz data.
+
+[ ] Deployment: Deploy to Vercel or Netlify for high-speed global delivery.
+
+Phase 3: Ad Integration & Optimization
+[ ] AdSense/AdX Setup: Apply for an account or connect with an MCM partner for AdX.
+
+[ ] Ad Slot Placement:
+
+[ ] Top Banner (Desktop/Tablet).
+
+[ ] Anchor/Sticky Ad (Mobile).
+
+[ ] In-feed ad (Between question and options).
+
+[ ] Interstitial Logic: Program a trigger to show a full-screen ad every 3–5 questions.
+
+[ ] GPT (Google Publisher Tag) Implementation: Ensure ads refresh via AJAX/Route change without reloading the whole page.
+
+[ ] Analytics Setup: Integrate GA4 to track "User Engagement Time" (key for increasing RPM).
+
+Phase 4: Policy & Quality Check
+[ ] Compliance Pages: Generate Privacy Policy, Terms of Service, and "About Us" pages.
+
+[ ] Ads.txt: Upload the ads.txt file to your root directory.
+
+[ ] Page Speed Audit: Run Google Lighthouse to ensure a 90+ score (Fast sites get higher CPM).
+
+[ ] Bot Protection: Implement basic rate-limiting to prevent invalid click activity.
+
+Phase 5: Launch & Scaling
+[ ] Beta Testing: Test on iOS, Android, and various desktop browsers.
+
+[ ] Viral Loops: Add "Share Result on WhatsApp/Twitter" buttons to drive organic traffic.
+
+[ ] Monitoring: Track RPM and CPM trends daily to adjust ad floor prices.

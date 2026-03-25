@@ -1,0 +1,192 @@
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23314720614/new-test-wallpaper-top-ads', [[320, 100], [336, 280], [300, 100], [300, 250], [300, 50], [320, 50]], 'div-gpt-ad-1771089588393-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /23314720614/new-test-wallpaper-top-ads -->
+<div id='div-gpt-ad-1771089588393-0' style='min-width: 300px; min-height: 50px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771089588393-0'); });
+  </script>
+</div>
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23314720614/new-test-wallpaper-top-ads', [[320, 50], [336, 280], [300, 50], [320, 100], [300, 250], [300, 100]], 'div-gpt-ad-1771002565388-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /23314720614/new-test-wallpaper-top-ads -->
+<div id='div-gpt-ad-1771002565388-0' style='min-width: 300px; min-height: 50px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771002565388-0'); });
+  </script>
+</div>
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23314720614/new-test-wallpaper-top-ads', [[320, 100], [336, 280], [300, 100], [300, 250], [300, 50], [320, 50]], 'div-gpt-ad-1771002591273-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /23314720614/new-test-wallpaper-top-ads -->
+<div id='div-gpt-ad-1771002591273-0' style='min-width: 300px; min-height: 50px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771002591273-0'); });
+  </script>
+</div>
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23314720614/new-test-wallpaper-top-ads', [[320, 100], [320, 50], [300, 250], [336, 280], [300, 100], [300, 50]], 'div-gpt-ad-1771002611468-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /23314720614/new-test-wallpaper-top-ads -->
+<div id='div-gpt-ad-1771002611468-0' style='min-width: 300px; min-height: 50px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771002611468-0'); });
+  </script>
+</div>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23314720614/new-test-wallpaper-top-ads', [[320, 50], [336, 280], [300, 100], [300, 250], [300, 50], [320, 100]], 'div-gpt-ad-1771002630523-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<!-- /23314720614/new-test-wallpaper-top-ads -->
+<div id='div-gpt-ad-1771002630523-0' style='min-width: 300px; min-height: 50px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771002630523-0'); });
+  </script>
+</div>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23314720614/new-test-wallpaper-top-ads', [[300, 250], [320, 50], [336, 280], [300, 100], [320, 100], [300, 50]], 'div-gpt-ad-1771002656033-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /23314720614/new-test-wallpaper-top-ads -->
+<div id='div-gpt-ad-1771002656033-0' style='min-width: 300px; min-height: 50px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771002656033-0'); });
+  </script>
+</div>
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23314720614/new-test-14-12-2025-ads-unit-for-job', [[300, 250], [300, 50], [320, 100], [300, 100], [336, 280], [320, 50]], 'div-gpt-ad-1771002813935-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /23314720614/new-test-14-12-2025-ads-unit-for-job -->
+<div id='div-gpt-ad-1771002813935-0' style='min-width: 300px; min-height: 50px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771002813935-0'); });
+  </script>
+</div>
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<center>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23314720614/header-1', [[300, 600], 'fluid'], 'div-gpt-ad-1771038197976-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- /23314720614/header-1 -->
+<div id='div-gpt-ad-1771038197976-0' style='min-width: 300px; min-height: 600px;'>
+<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1771038197976-0'); });
+  </script>
+</div>
+	</center>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------    
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+      window.googletag = window.googletag || {cmd: []};
+
+      // GPT ad slots
+      var anchorSlot_2;
+
+      googletag.cmd.push(function() {
+        anchorSlot_2 = googletag.defineOutOfPageSlot('/23314720614/sticky_mobile_banner', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);
+        anchorSlot_2.addService(googletag.pubads());
+
+         // Enable SRA and services.
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+        googletag.display(anchorSlot_2);
+      });
+    </script>
+		
+<script>
+    
+      window.googletag = window.googletag || {cmd: []};
+      
+      var interstitialSlot;
+      googletag.cmd.push(function() {
+        interstitialSlot = googletag.defineOutOfPageSlot('/23314720614/interstitial_mobile_wallpaper',
+            googletag.enums.OutOfPageFormat.INTERSTITIAL);
+        interstitialSlot.addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().set('page_url', 'http://linggame.xyz');
+        googletag.enableServices();
+        googletag.display(interstitialSlot);
+      });
+</script>
