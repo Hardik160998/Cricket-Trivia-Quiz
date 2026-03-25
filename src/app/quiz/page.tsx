@@ -9,6 +9,7 @@ import { createClient } from '@/utils/supabase/client';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { getWalletBalance, updateWalletBalance } from '@/lib/wallet';
+import { Suspense } from 'react';
 
 interface Question {
   question: string;
@@ -16,7 +17,7 @@ interface Question {
   correct_answer: string;
 }
 
-export default function QuizPage() {
+function QuizContent() {
   const searchParams = useSearchParams();
   const categorySlug = searchParams.get('cat') || 'ipl';
   const supabase = createClient();
@@ -236,5 +237,20 @@ export default function QuizPage() {
       <AdSlot format="anchor" slotId="mobile-anchor" />
       <AdSlot format="interstitial" slotId="interstitial" />
     </main>
+  );
+}
+
+export default function QuizPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-slate-500 font-bold">Initializing quiz...</p>
+        </div>
+      </div>
+    }>
+      <QuizContent />
+    </Suspense>
   );
 }
