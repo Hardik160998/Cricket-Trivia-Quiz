@@ -2,7 +2,7 @@ import { createBrowserClient } from "@supabase/ssr";
 
 const supabaseUrl = typeof window === 'undefined' 
   ? process.env.NEXT_PUBLIC_SUPABASE_URL 
-  : `${window.location.origin}/base`;
+  : `${window.location.origin}/cms`;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY;
 
 export const createClient = () => {
