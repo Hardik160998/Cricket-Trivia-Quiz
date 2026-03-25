@@ -9,34 +9,45 @@ export const AD_UNITS = {
     id: 'div-gpt-ad-1771002565388-0',
     sizes: [[320, 50], [336, 280], [300, 50], [320, 100], [300, 250], [300, 100]]
   },
+  'result-top': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-1771089588393-0',
+    sizes: [[320, 100], [300, 250]]
+  },
+  'result-bottom': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-1771002565388-0',
+    sizes: [[320, 100], [320, 50], [300, 250], [336, 280], [300, 100], [300, 50]]
+  },
+
   'blog-list-top': {
     path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-blog-list-top',
+    id: 'div-gpt-ad-1771089588393-0',
     sizes: [[320, 100], [320, 50], [300, 50]]
   },
   'blog-list-center': {
     path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-blog-list-center',
+    id: 'div-gpt-ad-1771002565388-0',
     sizes: [[300, 250], [336, 280]]
   },
   'article-top': {
     path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-article-top',
+    id: 'div-gpt-ad-1771002565388-0',
     sizes: [[320, 100], [320, 50]]
   },
   'article-center': {
     path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-article-center',
+    id: 'div-gpt-ad-1771002630523-0',
     sizes: [[300, 250], [336, 280]]
   },
   'quiz-top': {
     path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-quiz-top',
+    id: 'div-gpt-ad-1771002656033-0',
     sizes: [[320, 50], [320, 100]]
   },
   'quiz-center': {
-    path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-quiz-center',
+    path: '/23314720614/new-test-14-12-2025-ads-unit-for-job',
+    id: 'div-gpt-ad-1771002813935-0',
     sizes: [[300, 250]]
   },
   'quiz-bottom': {
@@ -44,24 +55,14 @@ export const AD_UNITS = {
     id: 'div-gpt-ad-1771002591273-0',
     sizes: [[320, 100], [336, 280], [300, 100], [300, 250], [300, 50], [320, 50]]
   },
-  'result-top': {
-    path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-result-top',
-    sizes: [[320, 100], [300, 250]]
-  },
-  'result-bottom': {
-    path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-1771002611468-0',
-    sizes: [[320, 100], [320, 50], [300, 250], [336, 280], [300, 100], [300, 50]]
-  },
   'wallet-top': {
     path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-wallet-top',
+    id: 'div-gpt-ad-1771002565388-0',
     sizes: [[320, 100], [320, 50]]
   },
   'wallet-center': {
     path: '/23314720614/new-test-wallpaper-top-ads',
-    id: 'div-gpt-ad-wallet-center',
+    id: 'div-gpt-ad-1771089588393-0',
     sizes: [[300, 250], [336, 280]]
   },
   'wallet-bottom': {
