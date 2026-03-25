@@ -82,5 +82,9 @@ export const AD_UNITS = {
   'interstitial': {
     path: '/23314720614/interstitial_quiz_101',
     format: 'interstitial'
+  },
+  'rewarded-video': {
+    path: '/23314720614/rewarded_video_quiz', // Placeholder path
+    format: 'rewarded'
   }
 } as const;

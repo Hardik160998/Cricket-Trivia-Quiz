@@ -4,10 +4,11 @@ import React, { useEffect, useRef } from 'react';
 import { AD_UNITS } from '@/lib/ads';
 
 interface AdSlotProps {
-  format: 'banner' | 'anchor' | 'interstitial';
+  format: 'banner' | 'anchor' | 'interstitial' | 'rewarded';
   slotId: string;
   className?: string;
   variant?: 'top' | 'center' | 'bottom';
+  onReward?: (amount: number, type: string) => void;
 }
 
 declare global {
@@ -16,7 +17,7 @@ declare global {
   }
 }
 
-const AdSlot: React.FC<AdSlotProps> = ({ format, slotId, className = '', variant = 'top' }) => {
+const AdSlot: React.FC<AdSlotProps> = ({ format, slotId, className = '', variant = 'top', onReward }) => {
   const adUnit = AD_UNITS[slotId as keyof typeof AD_UNITS];
   const hasDefined = useRef(false);
 
@@ -67,8 +68,35 @@ const AdSlot: React.FC<AdSlotProps> = ({ format, slotId, className = '', variant
           }
           hasDefined.current = true;
       }
+      // Rewarded Ads
+      else if (format === 'rewarded' && !hasDefined.current) {
+        const rewardedSlot = window.googletag.defineOutOfPageSlot(
+          adUnit.path,
+          window.googletag.enums.OutOfPageFormat.REWARDED
+        );
+        if (rewardedSlot) {
+          rewardedSlot.addService(window.googletag.pubads());
+          
+          window.googletag.pubads().addEventListener('rewardedSlotReady', (event: any) => {
+            if (event.slot === rewardedSlot) {
+              // The user's provided logic might call display() manually or handle visibility
+              event.makeRewardedVisible();
+            }
+          });
+
+          window.googletag.pubads().addEventListener('rewardedSlotGranted', (event: any) => {
+            if (event.slot === rewardedSlot && onReward) {
+              const { amount, type } = event.payload || { amount: 15, type: 'Coins' };
+              onReward(amount, type);
+            }
+          });
+
+          window.googletag.display(rewardedSlot);
+        }
+        hasDefined.current = true;
+      }
     });
-  }, [adUnit, format, slotId]);
+  }, [adUnit, format, slotId, onReward]);
 
   if (!adUnit) {
     return <div className="text-[10px] text-rose-400 italic">Invalid Ad Slot: {slotId}</div>;
