@@ -1,15 +1,22 @@
 import Link from 'next/link';
+import AdSlot from '@/components/AdSlot';
 
 export default function WorldCupMagic() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-20">
       <Link href="/blog" className="text-primary hover:underline mb-8 inline-block font-bold">← Back to Blog</Link>
-      <article className="prose prose-slate lg:prose-xl max-w-none">
-        <h1 className="text-5xl font-black mb-6">World Cup Magic: Unforgettable Moments</h1>
-        <p className="text-xl text-slate-500 mb-12 italic">Exploring the legendary finishes and iconic displays that have defined the ICC Cricket World Cup since 1975.</p>
-        
-        <p>The ICC Cricket World Cup is the pinnacle of the sport. Every four years, the cricketing world stops to witness the drama, the heartbreaks, and the glory. From the dominance of the West Indies in the 70s to the current era of high-scoring thrillers, the World Cup is where legends are immortalized.</p>
+      
+      <AdSlot format="banner" slotId="article-top" variant="top" className="mb-12" />
 
+      <article className="prose prose-slate lg:prose-xl max-w-none">
+        <h1 className="text-5xl font-black mb-6">World Cup Magic: Unforgettable Moments in ODI History</h1>
+        <p className="text-xl text-slate-500 mb-12 italic">Reliving the drama, the heroes, and the records that define the pinnacle of One Day International cricket.</p>
+        
+        <p>The ICC Cricket World Cup is where legends are born. Every four years, the world stops to watch the finest cricketers battle for the ultimate prize. From the West Indian dominance in the 70s to Australia&apos;s golden era, the tournament has provided endless drama.</p>
+
+        <AdSlot format="banner" slotId="article-center" variant="center" />
+
+        <h2>The Underdog Stories</h2>
         <h2>1983: The Day India Shocked the World</h2>
         <p>Arguably the most significant moment in Asian cricket history was Kapil Dev&apos;s India defeating the mighty West Indies at Lord&apos;s in 1983. Defending a measly 183, the Indian bowlers produced a masterclass that ignited a billion passions and changed the trajectory of the game in India forever.</p>
 

@@ -138,6 +138,7 @@ function QuizContent() {
   if (isFinished) {
     return (
       <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4 text-center">
+        <AdSlot format="banner" slotId="result-top" variant="top" className="mb-8" />
         <div className="glass-card p-10 rounded-3xl shadow-2xl max-w-md w-full animate-in fade-in zoom-in duration-500">
           <div className="w-24 h-24 bg-secondary/20 rounded-full flex items-center justify-center mx-auto mb-6">
              <span className="text-4xl">🏆</span>
@@ -204,6 +205,7 @@ function QuizContent() {
       </header>
 
       <div className="max-w-4xl mx-auto space-y-8">
+        <AdSlot format="banner" slotId="quiz-top" variant="top" />
         <ProgressBar current={currentQuestionIndex + 1} total={questions.length} />
         
         <QuizCard 
@@ -214,6 +216,8 @@ function QuizContent() {
           correctAnswer={currentQuestion.correct_answer}
           showFeedback={showFeedback}
         />
+
+        <AdSlot format="banner" slotId="quiz-center" variant="center" />
 
         <div className="flex justify-center">
           <button 
@@ -233,10 +237,8 @@ function QuizContent() {
 
         <AdSlot format="banner" slotId="quiz-bottom" className="mt-12" />
       </div>
-      
-      <AdSlot format="anchor" slotId="mobile-anchor" />
-      <AdSlot format="interstitial" slotId="interstitial" />
     </main>
+
   );
 }
 

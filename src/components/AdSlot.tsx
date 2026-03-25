@@ -7,6 +7,7 @@ interface AdSlotProps {
   format: 'banner' | 'anchor' | 'interstitial';
   slotId: string;
   className?: string;
+  variant?: 'top' | 'center' | 'bottom';
 }
 
 declare global {
@@ -15,7 +16,7 @@ declare global {
   }
 }
 
-const AdSlot: React.FC<AdSlotProps> = ({ format, slotId, className = '' }) => {
+const AdSlot: React.FC<AdSlotProps> = ({ format, slotId, className = '', variant = 'top' }) => {
   const adUnit = AD_UNITS[slotId as keyof typeof AD_UNITS];
   const hasDefined = useRef(false);
 
@@ -61,6 +62,7 @@ const AdSlot: React.FC<AdSlotProps> = ({ format, slotId, className = '' }) => {
           );
           if (interstitialSlot) {
             interstitialSlot.addService(window.googletag.pubads());
+            // Force refresh on navigation is handled globally or via pubads().refresh()
             window.googletag.display(interstitialSlot);
           }
           hasDefined.current = true;
@@ -76,12 +78,14 @@ const AdSlot: React.FC<AdSlotProps> = ({ format, slotId, className = '' }) => {
     return null;
   }
 
+  const isCenter = variant === 'center';
+
   return (
-    <div className={`flex flex-col items-center my-6 ${className}`}>
+    <div className={`flex flex-col items-center ${isCenter ? 'my-12' : 'my-4'} ${className}`}>
       <span className="text-[10px] text-slate-400 uppercase tracking-widest mb-2 font-medium">Advertisement</span>
       <div 
         id={'id' in adUnit ? adUnit.id : undefined}
-        className="w-full bg-slate-50 flex items-center justify-center border border-dashed border-slate-200 rounded-lg min-h-[50px]"
+        className={`w-full bg-slate-50 flex items-center justify-center border border-dashed border-slate-200 rounded-2xl overflow-hidden ${isCenter ? 'min-h-[250px]' : 'min-h-[50px]'}`}
         style={{ 
           minWidth: (
             'sizes' in adUnit && 

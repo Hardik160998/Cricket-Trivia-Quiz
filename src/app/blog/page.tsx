@@ -1,4 +1,6 @@
+import React from 'react';
 import Link from 'next/link';
+import AdSlot from '@/components/AdSlot';
 
 const ARTICLES = [
   {
@@ -29,20 +31,27 @@ export default function BlogIndex() {
         <h1 className="text-5xl font-black text-slate-800 mb-4">Cricket Deep Dives</h1>
         <p className="text-xl text-slate-500 mb-16">Expert analysis, historical retellings, and the latest stats from the world of cricket.</p>
 
+        <AdSlot format="banner" slotId="blog-list-top" variant="top" className="mb-12" />
+
         <div className="grid grid-cols-1 gap-12">
-          {ARTICLES.map((article) => (
-            <article key={article.slug} className="glass-card p-10 rounded-3xl border border-slate-100 hover:border-primary transition-all group">
-              <span className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2 block">{article.date}</span>
-              <h2 className="text-3xl font-bold text-slate-800 mb-4 group-hover:text-primary transition-colors">{article.title}</h2>
-              <p className="text-slate-600 leading-relaxed text-lg mb-8">{article.description}</p>
-              <Link 
-                href={`/blog/${article.slug}`}
-                className="inline-flex items-center space-x-2 bg-primary text-white px-6 py-3 rounded-xl font-bold shadow-lg shadow-primary/20 hover:scale-[1.05] transition-all"
-              >
-                <span>Read Full Article</span>
-                <span>→</span>
-              </Link>
-            </article>
+          {ARTICLES.map((article, index) => (
+            <React.Fragment key={article.slug}>
+              <article className="glass-card p-10 rounded-3xl border border-slate-100 hover:border-primary transition-all group">
+                <span className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2 block">{article.date}</span>
+                <h2 className="text-3xl font-bold text-slate-800 mb-4 group-hover:text-primary transition-colors">{article.title}</h2>
+                <p className="text-slate-600 leading-relaxed text-lg mb-8">{article.description}</p>
+                <Link 
+                  href={`/blog/${article.slug}`}
+                  className="inline-flex items-center space-x-2 bg-primary text-white px-6 py-3 rounded-xl font-bold shadow-lg shadow-primary/20 hover:scale-[1.05] transition-all"
+                >
+                  <span>Read Full Article</span>
+                  <span>→</span>
+                </Link>
+              </article>
+              {index === 0 && (
+                <AdSlot format="banner" slotId="blog-list-center" variant="center" />
+              )}
+            </React.Fragment>
           ))}
         </div>
       </div>

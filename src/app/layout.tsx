@@ -16,6 +16,8 @@ export const viewport = {
   userScalable: false,
 };
 
+import AdProvider from "@/components/AdProvider";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,7 +38,9 @@ export default function RootLayout({
         }} />
       </head>
       <body className={inter.className}>
-        {children}
+        <AdProvider>
+          {children}
+        </AdProvider>
       </body>
     </html>
   );

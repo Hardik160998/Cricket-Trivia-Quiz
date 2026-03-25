@@ -9,15 +9,60 @@ export const AD_UNITS = {
     id: 'div-gpt-ad-1771002565388-0',
     sizes: [[320, 50], [336, 280], [300, 50], [320, 100], [300, 250], [300, 100]]
   },
+  'blog-list-top': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-blog-list-top',
+    sizes: [[320, 100], [320, 50], [300, 50]]
+  },
+  'blog-list-center': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-blog-list-center',
+    sizes: [[300, 250], [336, 280]]
+  },
+  'article-top': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-article-top',
+    sizes: [[320, 100], [320, 50]]
+  },
+  'article-center': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-article-center',
+    sizes: [[300, 250], [336, 280]]
+  },
+  'quiz-top': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-quiz-top',
+    sizes: [[320, 50], [320, 100]]
+  },
+  'quiz-center': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-quiz-center',
+    sizes: [[300, 250]]
+  },
   'quiz-bottom': {
     path: '/23314720614/new-test-wallpaper-top-ads',
     id: 'div-gpt-ad-1771002591273-0',
     sizes: [[320, 100], [336, 280], [300, 100], [300, 250], [300, 50], [320, 50]]
   },
+  'result-top': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-result-top',
+    sizes: [[320, 100], [300, 250]]
+  },
   'result-bottom': {
     path: '/23314720614/new-test-wallpaper-top-ads',
     id: 'div-gpt-ad-1771002611468-0',
     sizes: [[320, 100], [320, 50], [300, 250], [336, 280], [300, 100], [300, 50]]
+  },
+  'wallet-top': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-wallet-top',
+    sizes: [[320, 100], [320, 50]]
+  },
+  'wallet-center': {
+    path: '/23314720614/new-test-wallpaper-top-ads',
+    id: 'div-gpt-ad-wallet-center',
+    sizes: [[300, 250], [336, 280]]
   },
   'wallet-bottom': {
     path: '/23314720614/new-test-wallpaper-top-ads',

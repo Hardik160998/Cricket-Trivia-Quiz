@@ -1,15 +1,21 @@
 import Link from 'next/link';
+import AdSlot from '@/components/AdSlot';
 
 export default function IPLEvolution() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-20">
       <Link href="/blog" className="text-primary hover:underline mb-8 inline-block font-bold">← Back to Blog</Link>
+      
+      <AdSlot format="banner" slotId="article-top" variant="top" className="mb-12" />
+
       <article className="prose prose-slate lg:prose-xl max-w-none">
         <h1 className="text-5xl font-black mb-6">The Evolution of IPL: From 2008 to the Global Powerhouse</h1>
         <p className="text-xl text-slate-500 mb-12 italic">Tracing the journey of the Indian Premier League from a bold experiment to the world&apos;s most influential cricket league.</p>
         
-        <p>In 2008, when the first ball was bowled in the inaugural Indian Premier League (IPL) match between Kolkata Knight Riders and Royal Challengers Bangalore, few could have predicted the seismic shift it would cause in the sporting world. Brendon McCullum&apos;s explosive 158* that night was more than just a great innings; it was a declaration of intent for a new era of cricket.</p>
+        <p>In 2008, when the first ball was bowled in the inaugural Indian Premier League (IPL) match between Kolkata Knight Riders and Royal Challengers Bangalore, few could have predicted the seismic shift it would cause in the sporting world.</p>
 
+        <AdSlot format="banner" slotId="article-center" variant="center" />
+        
         <h2>The Early Years: Glamour and Uncertainty</h2>
         <p>The first season was as much about Bollywood and celebrity owners as it was about cricket. The late Shane Warne leading an underdog Rajasthan Royals team to victory remains one of the most romantic stories in the league&apos;s history. It proved that in T20, tactics and belief could overcome star-studded lineups.</p>
 
