@@ -73,8 +73,6 @@ export default function WalletPage() {
             </div>
           </div>
         </section>
-
-// ... in WalletPage
         <AdSlot format="banner" slotId="wallet-bottom" className="mt-8" />
       </div>
       <AdSlot format="anchor" slotId="mobile-anchor" />
