@@ -8,23 +8,34 @@ export default function AdProvider({ children }: { children: React.ReactNode }) 
   const pathname = usePathname();
 
   useEffect(() => {
-    // Refresh interstitials on navigation
+    // Initial load: Try to trigger interstitial immediately
+    if (typeof window !== 'undefined' && window.googletag) {
+      window.googletag.cmd.push(() => {
+        const slots = window.googletag.pubads().getSlots();
+        const interstitialSlots = slots.filter((slot: any) => 
+          slot.getAdUnitPath().includes('interstitial')
+        );
+        if (interstitialSlots.length > 0) {
+          console.log('Initial load: Refreshing interstitial');
+          window.googletag.pubads().refresh(interstitialSlots);
+        }
+      });
+    }
+  }, []);
+
+  useEffect(() => {
+    // Navigation refresh: Refresh interstitials on pathname change
     if (typeof window !== 'undefined' && window.googletag && window.googletag.pubads) {
       window.googletag.cmd.push(() => {
-        // Find interstitial slots and refresh them
         const slots = window.googletag.pubads().getSlots();
         const interstitialSlots = slots.filter((slot: any) => 
           slot.getAdUnitPath().includes('interstitial') || 
-          slot.getSlotElementId().includes('interstitial')
+          slot.getSlotElementId()?.includes('interstitial')
         );
         
         if (interstitialSlots.length > 0) {
-          console.log('Refreshing interstitials on navigation to:', pathname);
+          console.log('Navigation: Refreshing interstitial to:', pathname);
           window.googletag.pubads().refresh(interstitialSlots);
-        } else {
-          // If not defined yet, AdSlot will handle initial display
-          // But we can force a global refresh for auto-ads if any
-          window.googletag.pubads().refresh();
         }
       });
     }
