@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/base/:path*',
-        destination: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/:path*`,
+        destination: `${process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co'}/:path*`,
       },
     ]
   },

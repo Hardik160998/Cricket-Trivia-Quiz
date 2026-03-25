@@ -5,8 +5,13 @@ const supabaseUrl = typeof window === 'undefined'
   : '/base';
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY;
 
-export const createClient = () =>
-  createBrowserClient(
-    supabaseUrl!,
-    supabaseKey!,
+export const createClient = () => {
+  if (!supabaseUrl || !supabaseKey) {
+    console.error("Supabase configuration is missing. Check your environment variables.");
+  }
+  
+  return createBrowserClient(
+    supabaseUrl || 'https://placeholder.supabase.co',
+    supabaseKey || 'placeholder-key',
   );
+};
