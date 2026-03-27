@@ -17,7 +17,7 @@ const ARTICLES = [
   },
   {
     slug: 'indias-rise',
-    title: 'The Rise of Indian Cricket: A Journey from 1983 to Dominance',
+    title: "The Rise of Indian Cricket: A Journey from 1983 to Dominance",
     description: 'Tracking the incredible transformation of the Indian National Team into a global cricketing superpower.',
     date: 'March 20, 2026'
   }
@@ -25,35 +25,48 @@ const ARTICLES = [
 
 export default function BlogIndex() {
   return (
-    <main className="min-h-screen bg-background py-20 px-6">
-      <div className="max-w-4xl mx-auto">
-        <Link href="/" className="text-primary hover:underline mb-8 inline-block font-bold">← Back to Home</Link>
-        <h1 className="text-5xl font-black text-slate-800 mb-4">Cricket Deep Dives</h1>
-        <p className="text-xl text-slate-500 mb-16">Expert analysis, historical retellings, and the latest stats from the world of cricket.</p>
-
-        <AdSlot format="banner" slotId="blog-list-top" variant="top" className="mb-12" />
-
-        <div className="grid grid-cols-1 gap-12">
-          {ARTICLES.map((article, index) => (
-            <React.Fragment key={article.slug}>
-              <article className="glass-card p-10 rounded-3xl border border-slate-100 hover:border-primary transition-all group">
-                <span className="text-xs font-black text-slate-400 uppercase tracking-widest mb-2 block">{article.date}</span>
-                <h2 className="text-3xl font-bold text-slate-800 mb-4 group-hover:text-primary transition-colors">{article.title}</h2>
-                <p className="text-slate-600 leading-relaxed text-lg mb-8">{article.description}</p>
-                <Link 
-                  href={`/blog/${article.slug}`}
-                  className="inline-flex items-center space-x-2 bg-primary text-white px-6 py-3 rounded-xl font-bold shadow-lg shadow-primary/20 hover:scale-[1.05] transition-all"
-                >
-                  <span>Read Full Article</span>
-                  <span>→</span>
-                </Link>
-              </article>
-              {index === 0 && (
-                <AdSlot format="banner" slotId="blog-list-center" variant="center" />
-              )}
-            </React.Fragment>
-          ))}
+    <main className="min-h-screen bg-slate-50">
+      {/* Compact Header */}
+      <header className="bg-white border-b border-slate-100 px-4 py-3 flex items-center gap-3 sticky top-0 z-10 shadow-sm">
+        <Link href="/" className="text-slate-500 hover:text-primary transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5M5 12l7-7M5 12l7 7"/></svg>
+        </Link>
+        <div>
+          <h1 className="text-base font-black text-slate-800">Cricket Deep Dives</h1>
+          <p className="text-xs text-slate-400">Expert analysis & historical retellings</p>
         </div>
+      </header>
+
+      {/* Ad: Top */}
+      <div className="flex justify-center py-3 bg-white border-b border-slate-100">
+        <AdSlot format="banner" slotId="blog-list-top" variant="top" />
+      </div>
+
+      {/* Articles */}
+      <div className="px-4 py-5 space-y-4">
+        {ARTICLES.map((article, index) => (
+          <React.Fragment key={article.slug}>
+            <article className="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden hover:shadow-md hover:border-primary/30 transition-all group">
+              {/* Color accent bar */}
+              <div className="h-1 bg-gradient-to-r from-primary to-secondary"></div>
+              <div className="p-5">
+                <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest block mb-2">{article.date}</span>
+                <h2 className="text-base font-bold text-slate-800 mb-2 leading-snug group-hover:text-primary transition-colors">{article.title}</h2>
+                <p className="text-slate-500 text-sm leading-relaxed mb-4 line-clamp-2">{article.description}</p>
+                <Link
+                  href={`/blog/${article.slug}`}
+                  className="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-xl text-xs font-bold shadow-md shadow-primary/20 hover:bg-primary/90 active:scale-95 transition-all"
+                >
+                  Read Full Article <span>→</span>
+                </Link>
+              </div>
+            </article>
+
+            {index === 0 && (
+              <AdSlot format="banner" slotId="blog-list-center" variant="center" />
+            )}
+          </React.Fragment>
+        ))}
       </div>
     </main>
   );

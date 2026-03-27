@@ -32,6 +32,17 @@ async function seed() {
          continue;
       }
 
+      // Check if questions already exist to avoid duplicates
+      const { count } = await supabase
+        .from('questions')
+        .select('*', { count: 'exact', head: true })
+        .eq('category_id', category.id);
+
+      if (count && count > 0) {
+        console.log(`Skipping ${cat.category} — already has ${count} questions.`);
+        continue;
+      }
+
       const questionEntries = cat.questions.map(q => ({
         question: q.question,
         options: q.options,

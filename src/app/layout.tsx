@@ -38,10 +38,14 @@ export default function RootLayout({
           `
         }} />
       </head>
-      <body className={inter.className}>
-        <AdProvider>
-          {children}
-        </AdProvider>
+      <body className={`${inter.className} bg-slate-200 flex justify-center min-h-screen`}>
+        <div className="w-full max-w-md bg-white min-h-screen shadow-2xl relative overflow-x-hidden flex flex-col">
+          <AdProvider>
+            <div className="flex-1">
+              {children}
+            </div>
+          </AdProvider>
+        </div>
       </body>
     </html>
   );

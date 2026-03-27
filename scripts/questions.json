@@ -5,27 +5,52 @@
     "questions": [
       {
         "question": "Which bowler has taken the most wickets in IPL history as of 2024?",
-        "options": ["Yuzvendra Chahal", "Lasith Malinga", "Dwayne Bravo", "Amit Mishra"],
+        "options": [
+          "Yuzvendra Chahal",
+          "Lasith Malinga",
+          "Dwayne Bravo",
+          "Amit Mishra"
+        ],
         "correct_answer": "Yuzvendra Chahal"
       },
       {
         "question": "Who was the first player to score 5000 runs in the IPL?",
-        "options": ["Virat Kohli", "Suresh Raina", "Rohit Sharma", "David Warner"],
+        "options": [
+          "Virat Kohli",
+          "Suresh Raina",
+          "Rohit Sharma",
+          "David Warner"
+        ],
         "correct_answer": "Suresh Raina"
       },
       {
         "question": "Which team holds the record for the highest team total in IPL history (287 runs)?",
-        "options": ["Royal Challengers Bangalore", "Sunrisers Hyderabad", "Mumbai Indians", "Lucknow Super Giants"],
+        "options": [
+          "Royal Challengers Bangalore",
+          "Sunrisers Hyderabad",
+          "Mumbai Indians",
+          "Lucknow Super Giants"
+        ],
         "correct_answer": "Sunrisers Hyderabad"
       },
       {
         "question": "Who won the Orange Cap in the first season of IPL (2008)?",
-        "options": ["Shaun Marsh", "Matthew Hayden", "Gautam Gambhir", "Chris Gayle"],
+        "options": [
+          "Shaun Marsh",
+          "Matthew Hayden",
+          "Gautam Gambhir",
+          "Chris Gayle"
+        ],
         "correct_answer": "Shaun Marsh"
       },
       {
         "question": "Who has won the most IPL titles as a captain?",
-        "options": ["MS Dhoni", "Rohit Sharma", "Gautam Gambhir", "Hardik Pandya"],
+        "options": [
+          "MS Dhoni",
+          "Rohit Sharma",
+          "Gautam Gambhir",
+          "Hardik Pandya"
+        ],
         "correct_answer": "MS Dhoni"
       }
     ]
@@ -36,27 +61,52 @@
     "questions": [
       {
         "question": "Which team has won the most ICC ODI World Cup titles?",
-        "options": ["India", "West Indies", "Australia", "England"],
+        "options": [
+          "India",
+          "West Indies",
+          "Australia",
+          "England"
+        ],
         "correct_answer": "Australia"
       },
       {
         "question": "Who was the 'Man of the Match' in the 2011 World Cup Final?",
-        "options": ["MS Dhoni", "Gautam Gambhir", "Yuvraj Singh", "Sachin Tendulkar"],
+        "options": [
+          "MS Dhoni",
+          "Gautam Gambhir",
+          "Yuvraj Singh",
+          "Sachin Tendulkar"
+        ],
         "correct_answer": "MS Dhoni"
       },
       {
         "question": "In which city was the first-ever Cricket World Cup final (1975) held?",
-        "options": ["Birmingham", "Manchester", "London", "Nottingham"],
+        "options": [
+          "Birmingham",
+          "Manchester",
+          "London",
+          "Nottingham"
+        ],
         "correct_answer": "London"
       },
       {
         "question": "Which player has scored the most runs in a single edition of the ODI World Cup (765 runs in 2023)?",
-        "options": ["Sachin Tendulkar", "Matthew Hayden", "Virat Kohli", "Kane Williamson"],
+        "options": [
+          "Sachin Tendulkar",
+          "Matthew Hayden",
+          "Virat Kohli",
+          "Kane Williamson"
+        ],
         "correct_answer": "Virat Kohli"
       },
       {
         "question": "Which country hosted the first-ever T20 World Cup in 2007?",
-        "options": ["India", "South Africa", "England", "Australia"],
+        "options": [
+          "India",
+          "South Africa",
+          "England",
+          "Australia"
+        ],
         "correct_answer": "South Africa"
       }
     ]
@@ -67,27 +117,52 @@
     "questions": [
       {
         "question": "Who was India's first ever Test captain?",
-        "options": ["Lala Amarnath", "CK Nayudu", "Vijay Hazare", "Mansoor Ali Khan Pataudi"],
+        "options": [
+          "Lala Amarnath",
+          "CK Nayudu",
+          "Vijay Hazare",
+          "Mansoor Ali Khan Pataudi"
+        ],
         "correct_answer": "CK Nayudu"
       },
       {
         "question": "Against which team did Sachin Tendulkar score his 100th international century?",
-        "options": ["Australia", "Bangladesh", "South Africa", "Pakistan"],
+        "options": [
+          "Australia",
+          "Bangladesh",
+          "South Africa",
+          "Pakistan"
+        ],
         "correct_answer": "Bangladesh"
       },
       {
         "question": "Who is the only Indian bowler to take 10 wickets in a single Test innings?",
-        "options": ["Kapil Dev", "Anil Kumble", "Ravichandran Ashwin", "Harbhajan Singh"],
+        "options": [
+          "Kapil Dev",
+          "Anil Kumble",
+          "Ravichandran Ashwin",
+          "Harbhajan Singh"
+        ],
         "correct_answer": "Anil Kumble"
       },
       {
         "question": "India won its first ever World Cup in 1983. Who was the opponent in the final?",
-        "options": ["Australia", "West Indies", "England", "Pakistan"],
+        "options": [
+          "Australia",
+          "West Indies",
+          "England",
+          "Pakistan"
+        ],
         "correct_answer": "West Indies"
       },
       {
         "question": "What is the highest individual score by an Indian in Test cricket?",
-        "options": ["319", "303", "281", "248"],
+        "options": [
+          "319",
+          "303",
+          "281",
+          "248"
+        ],
         "correct_answer": "319"
       }
     ]
@@ -98,28 +173,389 @@
     "questions": [
       {
         "question": "What is Sir Don Bradman's career Test batting average?",
-        "options": ["98.44", "99.94", "101.24", "95.64"],
+        "options": [
+          "98.44",
+          "99.94",
+          "101.24",
+          "95.64"
+        ],
         "correct_answer": "99.94"
       },
       {
         "question": "Who has the most international wickets across all formats?",
-        "options": ["Shane Warne", "Muttiah Muralitharan", "James Anderson", "Anil Kumble"],
+        "options": [
+          "Shane Warne",
+          "Muttiah Muralitharan",
+          "James Anderson",
+          "Anil Kumble"
+        ],
         "correct_answer": "Muttiah Muralitharan"
       },
       {
         "question": "Who recorded the fastest century in ODI cricket history (31 balls)?",
-        "options": ["Corey Anderson", "Shahid Afridi", "AB de Villiers", "Glenn Maxwell"],
+        "options": [
+          "Corey Anderson",
+          "Shahid Afridi",
+          "AB de Villiers",
+          "Glenn Maxwell"
+        ],
         "correct_answer": "AB de Villiers"
       },
       {
         "question": "Which batsman has the most double centuries in Test cricket?",
-        "options": ["Sachin Tendulkar", "Don Bradman", "Kumar Sangakkara", "Brian Lara"],
+        "options": [
+          "Sachin Tendulkar",
+          "Don Bradman",
+          "Kumar Sangakkara",
+          "Brian Lara"
+        ],
         "correct_answer": "Don Bradman"
       },
       {
         "question": "Who was the first player to take 500 wickets in T20 cricket?",
-        "options": ["Rashid Khan", "Dwayne Bravo", "Sunil Narine", "Lasith Malinga"],
+        "options": [
+          "Rashid Khan",
+          "Dwayne Bravo",
+          "Sunil Narine",
+          "Lasith Malinga"
+        ],
         "correct_answer": "Dwayne Bravo"
+      }
+    ]
+  },
+  {
+    "category": "T20 Cricket Quiz",
+    "slug": "t20",
+    "questions": [
+      {
+        "question": "Who scored the first century in T20 Internationals?",
+        "options": [
+          "Chris Gayle",
+          "Brendon McCullum",
+          "Aaron Finch",
+          "Kevin Pietersen"
+        ],
+        "correct_answer": "Chris Gayle"
+      },
+      {
+        "question": "Which country won the first ICC T20 World Cup in 2007?",
+        "options": [
+          "India",
+          "Pakistan",
+          "Australia",
+          "England"
+        ],
+        "correct_answer": "India"
+      },
+      {
+        "question": "Who has the highest individual score in T20 Internationals?",
+        "options": [
+          "Aaron Finch",
+          "Chris Gayle",
+          "Glenn Maxwell",
+          "Rohit Sharma"
+        ],
+        "correct_answer": "Aaron Finch"
+      },
+      {
+        "question": "Which bowler has taken the most wickets in T20 Internationals?",
+        "options": [
+          "Rashid Khan",
+          "Shakib Al Hasan",
+          "Tim Southee",
+          "Lasith Malinga"
+        ],
+        "correct_answer": "Tim Southee"
+      },
+      {
+        "question": "Who hit six sixes in an over in T20 World Cup?",
+        "options": [
+          "Chris Gayle",
+          "Yuvraj Singh",
+          "Kieron Pollard",
+          "Andre Russell"
+        ],
+        "correct_answer": "Yuvraj Singh"
+      }
+    ]
+  },
+  {
+    "category": "Cricket Rules Quiz",
+    "slug": "rules",
+    "questions": [
+      {
+        "question": "How many overs are bowled in a standard ODI match per team?",
+        "options": [
+          "20",
+          "40",
+          "50",
+          "60"
+        ],
+        "correct_answer": "50"
+      },
+      {
+        "question": "What does LBW stand for?",
+        "options": [
+          "Leg Before Wicket",
+          "Long Ball Wide",
+          "Left Bat Wide",
+          "Line Ball Wicket"
+        ],
+        "correct_answer": "Leg Before Wicket"
+      },
+      {
+        "question": "How many players are there in a cricket team?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "9"
+        ],
+        "correct_answer": "11"
+      },
+      {
+        "question": "What is the maximum number of overs a bowler can bowl in an ODI?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "15"
+        ],
+        "correct_answer": "10"
+      },
+      {
+        "question": "What is a 'duck' in cricket?",
+        "options": [
+          "0 runs",
+          "1 run",
+          "Out on first ball",
+          "Wide ball"
+        ],
+        "correct_answer": "0 runs"
+      }
+    ]
+  },
+  {
+    "category": "Cricket Legends",
+    "slug": "legends",
+    "questions": [
+      {
+        "question": "Who is known as the 'God of Cricket'?",
+        "options": [
+          "Virat Kohli",
+          "Sachin Tendulkar",
+          "Ricky Ponting",
+          "Jacques Kallis"
+        ],
+        "correct_answer": "Sachin Tendulkar"
+      },
+      {
+        "question": "Which cricketer is known as 'Mr. Cricket'?",
+        "options": [
+          "Steve Smith",
+          "Michael Hussey",
+          "Kane Williamson",
+          "Joe Root"
+        ],
+        "correct_answer": "Michael Hussey"
+      },
+      {
+        "question": "Who is known as 'Captain Cool'?",
+        "options": [
+          "Rohit Sharma",
+          "MS Dhoni",
+          "Virat Kohli",
+          "Kane Williamson"
+        ],
+        "correct_answer": "MS Dhoni"
+      },
+      {
+        "question": "Who is called the 'Universe Boss'?",
+        "options": [
+          "Andre Russell",
+          "Chris Gayle",
+          "AB de Villiers",
+          "David Warner"
+        ],
+        "correct_answer": "Chris Gayle"
+      },
+      {
+        "question": "Which player is known as 'The Wall'?",
+        "options": [
+          "Rahul Dravid",
+          "VVS Laxman",
+          "Cheteshwar Pujara",
+          "Sunil Gavaskar"
+        ],
+        "correct_answer": "Rahul Dravid"
+      }
+    ]
+  },
+  {
+    "category": "IPL Teams Quiz",
+    "slug": "ipl-teams",
+    "questions": [
+      {
+        "question": "Which team has won the most IPL titles?",
+        "options": [
+          "Mumbai Indians",
+          "Chennai Super Kings",
+          "KKR",
+          "RCB"
+        ],
+        "correct_answer": "Mumbai Indians"
+      },
+      {
+        "question": "Which team is known as 'Yellow Army'?",
+        "options": [
+          "CSK",
+          "MI",
+          "RCB",
+          "SRH"
+        ],
+        "correct_answer": "CSK"
+      },
+      {
+        "question": "Which IPL team is based in Kolkata?",
+        "options": [
+          "KKR",
+          "RCB",
+          "DC",
+          "LSG"
+        ],
+        "correct_answer": "KKR"
+      },
+      {
+        "question": "Which team won IPL 2022?",
+        "options": [
+          "Gujarat Titans",
+          "RR",
+          "CSK",
+          "MI"
+        ],
+        "correct_answer": "Gujarat Titans"
+      },
+      {
+        "question": "Which team is known for 'Ee Sala Cup Namde' slogan?",
+        "options": [
+          "RCB",
+          "MI",
+          "CSK",
+          "PBKS"
+        ],
+        "correct_answer": "RCB"
+      }
+    ]
+  },
+  {
+    "category": "Cricket Stadiums",
+    "slug": "stadiums",
+    "questions": [
+      {
+        "question": "Which is the largest cricket stadium in the world?",
+        "options": [
+          "Eden Gardens",
+          "MCG",
+          "Narendra Modi Stadium",
+          "Lords"
+        ],
+        "correct_answer": "Narendra Modi Stadium"
+      },
+      {
+        "question": "Where is Lord's Cricket Ground located?",
+        "options": [
+          "London",
+          "Sydney",
+          "Mumbai",
+          "Melbourne"
+        ],
+        "correct_answer": "London"
+      },
+      {
+        "question": "Which stadium is known as the 'Home of Cricket'?",
+        "options": [
+          "MCG",
+          "Lords",
+          "Eden Gardens",
+          "Wankhede"
+        ],
+        "correct_answer": "Lords"
+      },
+      {
+        "question": "Which stadium is located in Mumbai?",
+        "options": [
+          "Wankhede",
+          "Eden Gardens",
+          "Chepauk",
+          "Kotla"
+        ],
+        "correct_answer": "Wankhede"
+      },
+      {
+        "question": "Which stadium is famous in Kolkata?",
+        "options": [
+          "Eden Gardens",
+          "Wankhede",
+          "Chinnaswamy",
+          "Kotla"
+        ],
+        "correct_answer": "Eden Gardens"
+      }
+    ]
+  },
+  {
+    "category": "Women Cricket Quiz",
+    "slug": "women",
+    "questions": [
+      {
+        "question": "Who is the highest run-scorer in Women's ODI cricket?",
+        "options": [
+          "Mithali Raj",
+          "Meg Lanning",
+          "Charlotte Edwards",
+          "Suzie Bates"
+        ],
+        "correct_answer": "Mithali Raj"
+      },
+      {
+        "question": "Which country won the Women's ODI World Cup 2022?",
+        "options": [
+          "India",
+          "Australia",
+          "England",
+          "New Zealand"
+        ],
+        "correct_answer": "Australia"
+      },
+      {
+        "question": "Who was the captain of India Women's team in the 2017 World Cup final?",
+        "options": [
+          "Harmanpreet Kaur",
+          "Mithali Raj",
+          "Smriti Mandhana",
+          "Jhulan Goswami"
+        ],
+        "correct_answer": "Mithali Raj"
+      },
+      {
+        "question": "Which Indian woman cricketer scored 171* in the 2017 World Cup semifinal?",
+        "options": [
+          "Smriti Mandhana",
+          "Mithali Raj",
+          "Harmanpreet Kaur",
+          "Deepti Sharma"
+        ],
+        "correct_answer": "Harmanpreet Kaur"
+      },
+      {
+        "question": "Who is known as one of the fastest bowlers in Women's cricket (India)?",
+        "options": [
+          "Jhulan Goswami",
+          "Renuka Singh",
+          "Shikha Pandey",
+          "Poonam Yadav"
+        ],
+        "correct_answer": "Jhulan Goswami"
       }
     ]
   }
