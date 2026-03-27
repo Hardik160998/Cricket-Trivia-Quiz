@@ -105,7 +105,7 @@ function QuizContent() {
           <AdSlot format="banner" slotId="result-top" variant="top" />
         </div>
         <div className="flex-1 flex items-center justify-center">
-          <div className="bg-white rounded-3xl shadow-xl p-6 w-full animate-in fade-in zoom-in duration-500">
+          <div className="bg-white rounded-3xl shadow-md p-6 w-full animate-in fade-in zoom-in duration-500">
             <div className="flex flex-col items-center mb-5">
               <div className="w-16 h-16 bg-amber-50 rounded-full flex items-center justify-center mb-3">
                 <span className="text-3xl">🏆</span>

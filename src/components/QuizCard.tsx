@@ -12,41 +12,58 @@ interface QuizCardProps {
   showFeedback?: boolean;
 }
 
-const QuizCard: React.FC<QuizCardProps> = ({ 
-  question, 
-  options, 
-  onSelect, 
-  selectedOption, 
+const OPTION_LABELS = ['A', 'B', 'C', 'D', 'E'];
+
+const QuizCard: React.FC<QuizCardProps> = ({
+  question,
+  options,
+  onSelect,
+  selectedOption,
   disabled,
   correctAnswer,
   showFeedback
 }) => {
   return (
-    <div className="w-full max-w-2xl mx-auto glass-card p-6 md:p-8 rounded-2xl shadow-xl transition-all duration-300 hover:shadow-2xl">
-      <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-8 leading-tight">
-        {question}
-      </h2>
+    <div className="w-full rounded-2xl overflow-hidden shadow-md">
+      {/* Question Header — Dark Gradient */}
+      <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-5 relative overflow-hidden">
+        {/* Decorative glow */}
+        <div className="absolute top-[-20px] right-[-20px] w-32 h-32 bg-primary/30 rounded-full blur-[50px]"></div>
+        <div className="absolute bottom-[-20px] left-[-20px] w-24 h-24 bg-secondary/20 rounded-full blur-[40px]"></div>
 
-      <div className="grid grid-cols-1 gap-4">
+        <div className="relative z-10">
+          <span className="text-[10px] font-bold text-white uppercase tracking-[0.25em] text-primary/80 mb-2 block">Question</span>
+          <h2 className="text-base font-bold text-white leading-snug">{question}</h2>
+        </div>
+      </div>
+
+      {/* Options */}
+      <div className="bg-white p-4 space-y-2.5">
         {options.map((option, index) => {
           const isSelected = selectedOption === option;
           const isCorrect = option === correctAnswer;
-          
-          let statusClasses = 'border-slate-100 hover:border-primary/30 hover:bg-slate-50 active:scale-[0.98]';
-          let iconClasses = 'bg-white border-slate-200 text-slate-400 group-hover:border-primary/50 group-hover:text-primary';
 
-          if (isSelected) {
-            statusClasses = 'border-primary bg-primary/5 shadow-md scale-[1.02]';
-            iconClasses = 'bg-primary border-primary text-white';
+          // Base classes
+          let buttonClasses = 'border-2 border-slate-100 bg-slate-50 text-slate-700 hover:border-primary/40 hover:bg-primary/5 hover:text-primary active:scale-[0.98]';
+          let labelClasses = 'bg-slate-200 text-slate-500';
+          let icon = OPTION_LABELS[index];
+
+          if (isSelected && !showFeedback) {
+            buttonClasses = 'border-2 border-primary bg-primary text-white shadow-lg shadow-primary/30 scale-[1.01]';
+            labelClasses = 'bg-white/20 text-white';
           }
 
           if (showFeedback) {
             if (isCorrect) {
-              statusClasses = 'border-emerald-500 bg-emerald-50 shadow-md scale-[1.02]';
-              iconClasses = 'bg-emerald-500 border-emerald-500 text-white';
+              buttonClasses = 'border-2 border-emerald-500 bg-emerald-500 text-white shadow-lg shadow-emerald-500/30 scale-[1.01]';
+              labelClasses = 'bg-white/20 text-white';
+              icon = '✓';
             } else if (isSelected && !isCorrect) {
-              statusClasses = 'border-rose-500 bg-rose-50 shadow-md';
-              iconClasses = 'bg-rose-500 border-rose-500 text-white';
+              buttonClasses = 'border-2 border-rose-500 bg-rose-500 text-white shadow-md';
+              labelClasses = 'bg-white/20 text-white';
+              icon = '✕';
+            } else {
+              buttonClasses = 'border-2 border-slate-100 bg-slate-50 text-slate-400 opacity-50';
             }
           }
 
@@ -56,25 +73,27 @@ const QuizCard: React.FC<QuizCardProps> = ({
               onClick={() => onSelect(option)}
               disabled={disabled || showFeedback}
               className={`
-                group relative flex items-center p-4 rounded-xl border-2 text-left transition-all duration-200
-                ${statusClasses}
-                ${(disabled || showFeedback) ? 'opacity-80 cursor-not-allowed' : 'cursor-pointer'}
+                group w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left transition-all duration-200
+                ${buttonClasses}
+                ${(disabled || showFeedback) ? 'cursor-not-allowed' : 'cursor-pointer'}
               `}
             >
-              <div className={`
-                flex items-center justify-center w-8 h-8 rounded-lg border mr-4 text-sm font-bold transition-colors
-                ${iconClasses}
+              {/* Letter Badge */}
+              <span className={`
+                flex-shrink-0 w-7 h-7 rounded-lg text-[11px] font-black transition-all flex items-center justify-center
+                ${labelClasses}
               `}>
-                {showFeedback && isCorrect ? '✓' : showFeedback && isSelected && !isCorrect ? '✕' : String.fromCharCode(65 + index)}
-              </div>
-              <span className={`text-base font-medium ${isSelected || (showFeedback && isCorrect) ? 'text-slate-800 font-bold' : 'text-slate-600'}`}>
-                {option}
+                {icon}
               </span>
-              
+
+              {/* Option Text */}
+              <span className="text-sm font-semibold leading-tight">{option}</span>
+
+              {/* Correct badge */}
               {showFeedback && isCorrect && (
-                <div className="ml-auto">
-                   <span className="text-emerald-500 font-black text-xs uppercase tracking-widest bg-emerald-100 px-2 py-1 rounded-md animate-bounce">Correct</span>
-                </div>
+                <span className="ml-auto text-[10px] font-black bg-white/20 text-white px-2 py-0.5 rounded-full uppercase tracking-wider animate-pulse flex-shrink-0">
+                  Correct!
+                </span>
               )}
             </button>
           );
