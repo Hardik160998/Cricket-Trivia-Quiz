@@ -102,7 +102,7 @@ const AdSlot: React.FC<AdSlotProps> = ({ format, slotId, className = '', variant
     return <div className="text-[10px] text-rose-400 italic">Invalid Ad Slot: {slotId}</div>;
   }
 
-  if (format === 'anchor' || format === 'interstitial') {
+  if (format === 'anchor' || format === 'interstitial' || format === 'rewarded') {
     return null;
   }
 
